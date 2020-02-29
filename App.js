@@ -1,19 +1,8 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello World!!!!</Text>
-    </View>
-  );
+import React, { Component } from "react";
+import { Platform, Stylesheet, Text, View } from "react-native";
+import LoggedOut from "./src/screens/LoggedOut";
+export default class App extends Component {
+  render() {
+    return <LoggedOut />;
+  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "aqua",
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
