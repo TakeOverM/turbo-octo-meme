@@ -17,10 +17,10 @@ import {
         <View style={styles.welcomeWrapper}>
           <Image
             style={styles.logo}
-            source={require("../img/logo.jpg")}
+            source={require("../img/plant.png")}
           />
           <Text style={styles.welcomeText}>
-            Welcome to Green Thumb
+            Welcome to GreenThumb
           </Text>
           <RoundedButton 
           text="Sign in with Facebook"
@@ -48,13 +48,14 @@ welcomeWrapper: {
     padding: 20
 },
 logo: {
-    width: 50,
-    height: 50,
-    marginTop: 50,
+    width: 60,
+    height: 100,
+    marginTop: 100,
     marginBottom: 40
 },
 welcomeText: {
     fontSize: 30,
+    textAlign: "center",
     color: colors.white,
     fontWeight: "300",
     marginBottom: 40
