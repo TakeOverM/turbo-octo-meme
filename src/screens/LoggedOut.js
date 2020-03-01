@@ -28,7 +28,10 @@ import {
           backgroundColor={colors.white}
           />
 
-          <RoundedButton text="Create an Account" color={colors.white} />
+          <RoundedButton text="Create an Account" 
+          color={colors.white} 
+          backgroundColor={colors.orange01}
+          />
           {/* <TouchableHighlight></TouchableHighlight> */}
 
         </View>
