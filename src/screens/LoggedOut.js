@@ -23,14 +23,15 @@ import {
             Welcome to GreenThumb
           </Text>
           <RoundedButton 
-          text="Sign in with Facebook"
+          text="Sign in"
           color={colors.green01}
           backgroundColor={colors.white}
           />
 
           <RoundedButton text="Create an Account" color={colors.white} />
-          {/* <TouchableHighlight></TouchableHighlight> */}
-
+            <Text style={styles.hackText}>
+                Created for HackMerced V, by Jesus Martinez, Bernadette Ortiz, and Eduardo Flores.
+            </Text>
         </View>
       </View>
       );
@@ -64,5 +65,12 @@ welcomeText: {
     color: colors.white,
     fontWeight: "300",
     marginBottom: 40
+},
+hackText: {
+    justifyContent: 'flex-end',
+    marginBottom: 36,
+    color: colors.white,
+    fontSize: 20,
+    fontWeight: '600',
 }
 });
