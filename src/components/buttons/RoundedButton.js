@@ -30,7 +30,9 @@ const styles = StyleSheet.create({
         display: "flex",
         borderRadius: 40,
         borderWidth: 1,
-        borderColor: "#ffffff"
+        borderColor: "#ffffff",
+        marginBottom: 15,
+        alignItems: "center"
     },
     buttonText: {
         fontSize: 16,

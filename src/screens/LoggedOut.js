@@ -27,6 +27,10 @@ import {
           color={colors.green01}
           backgroundColor={colors.white}
           />
+
+          <RoundedButton text="Create an Account" color={colors.white} />
+          {/* <TouchableHighlight></TouchableHighlight> */}
+
         </View>
       </View>
       );
@@ -49,9 +53,10 @@ welcomeWrapper: {
 },
 logo: {
     width: 60,
-    height: 100,
+    height: 110,
     marginTop: 100,
-    marginBottom: 40
+    marginBottom: 40,
+    alignSelf: "center"
 },
 welcomeText: {
     fontSize: 30,
